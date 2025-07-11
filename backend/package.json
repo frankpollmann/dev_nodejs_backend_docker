@@ -1,5 +1,5 @@
 {
-  "name": "nodejs_backend",
+  "name": "dev_nodejs_backend",
   "version": "1.0.0",
   "description": "nodejs backend for APIs",
   "main": "server.js",
