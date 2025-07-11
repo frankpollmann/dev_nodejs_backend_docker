@@ -22,5 +22,5 @@ app.get('/', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Timer-Backend läuft auf http://localhost:${port}`);
+  console.log(`nodejs backend läuft auf http://localhost:${port}`);
 });
