@@ -7,7 +7,7 @@ services:
     working_dir: /app
     # volumes:
     #  - .:/app
-    command: node src/app.js
+    command: CMD ["ls", "-la", "/app/src"]
     ports:
       - "3100:3000"
    
