@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   api:
-    container_name: dev_nodejs_backend
+    container_name: nodejs_backend
     image: node:20
     working_dir: /app
     # volumes:
