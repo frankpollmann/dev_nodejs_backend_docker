@@ -2,4 +2,4 @@ FROM node:20
 WORKDIR /app
 COPY . .
 RUN npm install
-CMD ["node", "src/app.js"]
+CMD ["ls", "-la", "/app/src"]
