@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: dev_nodejs_backend
+    ports:
+      - "31000:3000"
+    env_file:
+      - .env
+    # volumes:
+    #   - .:/app
+    restart: unless-stopped
