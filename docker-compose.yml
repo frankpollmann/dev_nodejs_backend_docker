@@ -1,10 +1,11 @@
+version: "3.9"
+
 services:
   backend:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: timer_backend
+    container_name: nodejs_backend
     ports:
       - "3001:3000"
-    environment:
     restart: unless-stopped
