@@ -1,7 +1,7 @@
 {
   "name": "nodejs_backend",
   "version": "1.0.0",
-  "description": "Backend für Timer-Projekt",
+  "description": "nodejs backend for APIs",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
