@@ -5,8 +5,8 @@ services:
     container_name: dev_nodejs_backend
     image: node:20
     working_dir: /app
-    volumes:
-      - .:/app
+    # volumes:
+    #  - .:/app
     command: node src/app.js
     ports:
       - "3100:3000"
