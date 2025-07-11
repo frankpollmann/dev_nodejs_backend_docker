@@ -1,7 +1,7 @@
 {
   "name": "nodejs_backend",
   "version": "1.0.0",
-  "description": "Backend für Timer-Projekt mit Neo4j",
+  "description": "Backend mit nodejs und neo4j treibern",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
