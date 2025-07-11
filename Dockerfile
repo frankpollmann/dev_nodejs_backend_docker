@@ -1,5 +1,5 @@
 # Basis-Image mit Node.js
-FROM node:18
+FROM node:latest
 
 # Arbeitsverzeichnis im Container
 WORKDIR /app
