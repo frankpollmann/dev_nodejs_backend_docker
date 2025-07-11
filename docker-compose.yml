@@ -6,8 +6,8 @@ services:
     container_name: dev_nodejs_backend
     ports:
       - "31000:3000"
-    env_file:
-      - .env
-    # volumes:
-    #   - .:/app
+    #env_file:
+    #  - .env
+     volumes:
+       - .:/app
     restart: unless-stopped
