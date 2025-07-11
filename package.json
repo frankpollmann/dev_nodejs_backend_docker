@@ -1,5 +1,5 @@
 {
-  "name": "timer-backend",
+  "name": "nodejs_backend",
   "version": "1.0.0",
   "description": "Backend für Timer-Projekt mit Neo4j",
   "main": "server.js",
