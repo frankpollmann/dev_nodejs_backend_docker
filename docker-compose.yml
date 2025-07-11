@@ -5,7 +5,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: nodejs_backend
+    container_name: dev_nodejs_backend
     ports:
       - "3001:3000"
     restart: unless-stopped
