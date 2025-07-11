@@ -4,10 +4,10 @@ services:
   api:
     container_name: nodejs_backend
     image: node:20
-    working_dir: /app
+    working_dir: /
     # volumes:
     #  - .:/app
-    command: CMD sh -c "ls -la src"
+    command: node src/app.js
 
     ports:
       - "3100:3000"
