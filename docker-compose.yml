@@ -7,7 +7,8 @@ services:
     working_dir: /app
     # volumes:
     #  - .:/app
-    command: CMD ["ls", "-la", "/app/src"]
+    command: CMD sh -c "ls -la src"
+
     ports:
       - "3100:3000"
    
