@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-backend",
+  "name": "nodejs_backend",
   "version": "1.0.0",
   "description": "Backend für Timer-Projekt",
   "main": "server.js",
