@@ -8,8 +8,6 @@ services:
     container_name: dev_nodejs_backend
     ports:
       - "3001:3000"
-    volumes:
-      - shared_code:/app
     working_dir: /app
     command: ["npm", "start"]
     restart: unless-stopped
