@@ -3,7 +3,10 @@ const neo4j = require('neo4j-driver');
 
 const app = express();
 const port = 3000;
-
+console.log("NEO4J_URI:", env.NEO4J_URI);
+console.log("NEO4J_USER:", env.NEO4J_USER);
+console.log("NEO4J_PASSWORD:", env.NEO4J_PASSWORD);
+console.log("NODE_ENV:", env.NODE_ENV);
 const driver = neo4j.driver(
   process.env.NEO4J_URI,
   neo4j.auth.basic(process.env.NEO4J_USER, process.env.NEO4J_PASSWORD)
