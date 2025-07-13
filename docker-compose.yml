@@ -19,3 +19,6 @@ services:
       
 volumes:
   shared_code:
+  volumes:
+  - ./src:/app/src
+
