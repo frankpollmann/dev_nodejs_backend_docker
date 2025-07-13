@@ -9,7 +9,7 @@ services:
     ports:
       - "3001:3000"
     working_dir: /app/
-    command: ["npm", "start"]
+    #command: ["npm", "start"]
     restart: unless-stopped
     environment:
       NEO4J_URI: ${NEO4J_URI}
