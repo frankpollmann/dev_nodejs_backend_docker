@@ -5,6 +5,10 @@ ENTRYPOINT_FILE="/app/src/index.js"
 # Funktion zum Starten des Servers
 start_server() {
   echo "✅ Datei gefunden: $ENTRYPOINT_FILE"
+
+  echo "📚 Generiere Swagger-Doku..."
+  node /app/scripts/generate-swagger.js
+  
   echo "🚀 Starte mit nodemon..."
   exec npx nodemon "$ENTRYPOINT_FILE"
 }
