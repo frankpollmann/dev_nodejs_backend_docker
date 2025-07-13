@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "nodejs backend for APIs",
   "main": "server.js",
-  # "scripts": {
-    #  "dev": "nodemon server.js",
-    #  "start": "node server.js"
+  "scripts": {
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
