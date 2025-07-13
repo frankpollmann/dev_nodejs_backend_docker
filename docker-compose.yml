@@ -8,17 +8,16 @@ services:
     container_name: dev_nodejs_backend
     ports:
       - "3001:3000"
-    working_dir: /app/
-    #command: ["npm", "start"]
+    working_dir: /app
     restart: unless-stopped
     environment:
       NEO4J_URI: ${NEO4J_URI}
       NEO4J_USER: ${NEO4J_USER}
       NEO4J_PASSWORD: ${NEO4J_PASSWORD}
       NEO4J_PORT: ${NEO4J_PORT}
-      
-volumes:
-  shared_code:
-  volumes:
-  - ./src:/app/src
+    volumes:
+      - ./src:/app/src         # Live-Sync für lokale Entwicklung
+      - shared_code:/app/data  # Optionales benanntes Volume
 
+volumes:
+  shared_code: {}
